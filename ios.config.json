@@ -223,7 +223,7 @@
         "type": "FindPhysician",
         "priority": 400,
         "message": "Need help building your care team? Find a physician near you",
-        "expiration": 1586941257,
+        "expiration": 1584453850,
         "image": "https://mobile-config-server.adventhealth.io/content/card/ios/welness_cards_generic_careteam.png",
         "actions": [
           {
