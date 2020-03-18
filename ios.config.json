@@ -223,7 +223,7 @@
           "type": "FindPhysician",
           "priority": 400,
           "message": "Need help building your care team? Find a physician near you",
-          "expiration": 1584435600,
+          "expiration": 1594435600,
           "image": "https://mobile-config-server.adventhealth.io/content/card/ios/welness_cards_generic_careteam.png",
           "actions": [
             {
@@ -235,7 +235,7 @@
       {
         "type": "specialMessage",
         "specialMessageTitle": "Coronavirus Updates",
-        "expiration": 1596941257,
+        "expiration": 1586941257,
         "priority": 2500,
         "message": "Visit the Coronavirus Resource Hub for Updates",
         "image": "https://mobile-config-server.adventhealth.io/content/card/ios/wellness_coronavirus_hero.png",
