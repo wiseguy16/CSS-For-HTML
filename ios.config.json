@@ -235,7 +235,7 @@
       {
         "type": "specialMessage",
         "specialMessageTitle": "Coronavirus Updates",
-        "expiration": 1586941257,
+        "expiration": 1596941257,
         "priority": 2500,
         "message": "Visit the Coronavirus Resource Hub for Updates",
         "image": "https://mobile-config-server.adventhealth.io/content/card/ios/wellness_coronavirus_hero.png",
