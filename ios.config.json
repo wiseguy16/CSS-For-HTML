@@ -247,12 +247,12 @@
         "actions": [
           {
             "type": "goToWebView",
-            "text": "Visit the Resource Hub",
+            "text": "Resource Hub",
             "specialAction": "https://www.adventhealth.com/coronavirus-resource-hub"
           },
             {
             "type": "goToWebView",
-            "text": "Visit the Resource Hub 2",
+            "text": "Get Help Now",
             "specialAction": "https://www.adventhealth.com/coronavirus-resource-hub"
           }
         ]
