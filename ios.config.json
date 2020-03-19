@@ -241,9 +241,9 @@
         "specialMessageTitle": "Coronavirus Updates",
         "expiration": 1586941257,
         "priority": 2500,
-        "message": "Visit the Coronavirus Resource Hub for Updates",
+        "message": "Get Answers to Your Coronavirus Questions for Free",
         "image": "https://mobile-config-server.adventhealth.io/content/card/ios/wellness_coronavirus_hero.png",
-        "caption": "Staying Informed About Your Health Has Never Been Easier",
+        "caption": "See the Resource Hub for general questions or have video visit with a licensed care provider",
         "actions": [
           {
             "type": "goToWebView",
@@ -251,9 +251,8 @@
             "specialAction": "https://www.adventhealth.com/coronavirus-resource-hub"
           },
             {
-            "type": "goToWebView",
-            "text": "Get Help Now",
-            "specialAction": "https://www.adventhealth.com/coronavirus-resource-hub"
+            "type": "StartVideoVisit",
+            "text": "Get Help Now"
           }
         ]
       },
