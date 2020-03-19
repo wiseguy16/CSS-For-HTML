@@ -245,6 +245,11 @@
             "type": "goToWebView",
             "text": "Visit the Resource Hub",
             "specialAction": "https://www.adventhealth.com/coronavirus-resource-hub"
+          },
+            {
+            "type": "goToWebView",
+            "text": "Visit the Resource Hub",
+            "specialAction": "https://www.adventhealth.com/coronavirus-resource-hub"
           }
         ]
       },
