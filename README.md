@@ -7,7 +7,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 
-[Start a video visit](https://adventhealth.com/my_fake_video_visit)
+[Start a video visit](https://adventhealth.com/myHealth)
 
 
  
