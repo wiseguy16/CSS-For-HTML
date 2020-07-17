@@ -1,3 +1,614 @@
 {
-  "removed": "content"
+  "envName": "AM",
+  "app": {
+    "version": 1,
+    "minimumBuild": 1301,
+    "analyticsId": "11e17bf9-6692-456d-84eb-8ce5d90e1614",
+    "oktaDomain":"https://adventhealth.oktapreview.com",
+    "stateList": [
+      {
+        "name": "Alabama",
+        "abbreviation": "AL"
+      },
+      {
+        "name": "Alaska",
+        "abbreviation": "AK"
+      },
+      {
+        "name": "Arizona",
+        "abbreviation": "AZ"
+      },
+      {
+        "name": "Arkansas",
+        "abbreviation": "AR"
+      },
+      {
+        "name": "California",
+        "abbreviation": "CA"
+      },
+      {
+        "name": "Colorado",
+        "abbreviation": "CO"
+      },
+      {
+        "name": "Connecticut",
+        "abbreviation": "CT"
+      },
+      {
+        "name": "Delaware",
+        "abbreviation": "DE"
+      },
+      {
+        "name": "Florida",
+        "abbreviation": "FL"
+      },
+      {
+        "name": "Georgia",
+        "abbreviation": "GA"
+      },
+      {
+        "name": "Hawaii",
+        "abbreviation": "HI"
+      },
+      {
+        "name": "Idaho",
+        "abbreviation": "ID"
+      },
+      {
+        "name": "Illinois",
+        "abbreviation": "IL"
+      },
+      {
+        "name": "Indiana",
+        "abbreviation": "IN"
+      },
+      {
+        "name": "Iowa",
+        "abbreviation": "IA"
+      },
+      {
+        "name": "Kansas",
+        "abbreviation": "KS"
+      },
+      {
+        "name": "Kentucky",
+        "abbreviation": "KY"
+      },
+      {
+        "name": "Louisiana",
+        "abbreviation": "LA"
+      },
+      {
+        "name": "Maine",
+        "abbreviation": "ME"
+      },
+      {
+        "name": "Maryland",
+        "abbreviation": "MD"
+      },
+      {
+        "name": "Massachusetts",
+        "abbreviation": "MA"
+      },
+      {
+        "name": "Michigan",
+        "abbreviation": "MI"
+      },
+      {
+        "name": "Minnesota",
+        "abbreviation": "MN"
+      },
+      {
+        "name": "Mississippi",
+        "abbreviation": "MS"
+      },
+      {
+        "name": "Missouri",
+        "abbreviation": "MO"
+      },
+      {
+        "name": "Montana",
+        "abbreviation": "MT"
+      },
+      {
+        "name": "Nebraska",
+        "abbreviation": "NE"
+      },
+      {
+        "name": "Nevada",
+        "abbreviation": "NV"
+      },
+      {
+        "name": "New Hampshire",
+        "abbreviation": "NH"
+      },
+      {
+        "name": "New Jersey",
+        "abbreviation": "NJ"
+      },
+      {
+        "name": "New Mexico",
+        "abbreviation": "NM"
+      },
+      {
+        "name": "New York",
+        "abbreviation": "NY"
+      },
+      {
+        "name": "North Carolina",
+        "abbreviation": "NC"
+      },
+      {
+        "name": "North Dakota",
+        "abbreviation": "ND"
+      },
+      {
+        "name": "Ohio",
+        "abbreviation": "OH"
+      },
+      {
+        "name": "Oklahoma",
+        "abbreviation": "OK"
+      },
+      {
+        "name": "Oregon",
+        "abbreviation": "OR"
+      },
+      {
+        "name": "Pennsylvania",
+        "abbreviation": "PA"
+      },
+      {
+        "name": "Rhode Island",
+        "abbreviation": "RI"
+      },
+      {
+        "name": "South Carolina",
+        "abbreviation": "SC"
+      },
+      {
+        "name": "South Dakota",
+        "abbreviation": "SD"
+      },
+      {
+        "name": "Tennessee",
+        "abbreviation": "TN"
+      },
+      {
+        "name": "Texas",
+        "abbreviation": "TX"
+      },
+      {
+        "name": "Utah",
+        "abbreviation": "UT"
+      },
+      {
+        "name": "Vermont",
+        "abbreviation": "VT"
+      },
+      {
+        "name": "Virginia",
+        "abbreviation": "VA"
+      },
+      {
+        "name": "Washington",
+        "abbreviation": "WA"
+      },
+      {
+        "name": "West Virginia",
+        "abbreviation": "WV"
+      },
+      {
+        "name": "Wisconsin",
+        "abbreviation": "WI"
+      },
+      {
+        "name": "Wyoming",
+        "abbreviation": "WY"
+      }
+    ],
+    "searchRadiusInMiles": 50,
+    "allowedUrgentCareStates": [
+      "FL",
+      "KS"
+    ],
+    "allowedEcareStates": [
+      "FL",
+      "GA",
+      "KS",
+      "KY",
+      "MO",
+      "NC",
+      "TN",
+      "TX",
+      "WI"
+    ],
+    "deck": [
+        {
+          "type": "specialMessage",
+          "specialMessageTitle": "Coronavirus Updates",
+          "expiration": 1598897216,
+          "priority": 2500,
+          "message": "Care and Safety Tips to Protect You and Your Family",
+          "image": "https://mobile-config-server.adventhealth.io/content/card/ios/BRDIG_coronavirus_hero.png",
+          "caption": "Staying Informed About Your Health Has Never Been Easier",
+          "actions": [
+            {
+              "type": "goToWebView",
+              "text": "Tips and Updates",
+              "specialAction": "https://www.adventhealth.com/app/updates?ahs-webview=1"
+            },
+              {
+              "type": "StartVideoVisit",
+              "text": "Get Care Now"
+            }
+          ]
+        },
+      {
+        "type": "UrgentCareGeneral",
+        "priority": 300,
+        "message": "Need a visit to Urgent Care? Find a location near you",
+        "image": "https://mobile-config-server.adventhealth.io/content/card/ios/wellness_cards_generic_urgent_care.png",
+        "actions": [
+          {
+            "type": "FindUrgentCare",
+            "text": "Find A Location"
+          }
+        ]
+      },
+      {
+        "type": "UrgentCareSeasonal",
+        "priority": 800,
+        "message": "Summers are for fun, not fevers.",
+        "image": "https://mobile-config-server.adventhealth.io/content/card/ios/welness_cards_generic_care.png",
+        "caption": "Find the Centra Care location closest to you.",
+        "actions": [
+          {
+            "type": "FindUrgentCare",
+            "text": "Schedule Visit"
+          }
+        ]
+      },
+      {
+        "type": "ECare",
+        "priority": 200,
+        "message": "Consult a provider at the touch of a button",
+        "image": "https://mobile-config-server.adventhealth.io/content/card/ios/wellness_cards_e_care.png",
+        "caption": "Try an eCare Video Visit.",
+        "actions": [
+          {
+            "type": "StartVideoVisit",
+            "text": "Start Video Visit"
+          }
+        ]
+      },
+      {
+        "type": "ScheduleCare",
+        "priority": 100,
+        "message": "It's been a while since your last wellness care visit",
+        "image": "https://mobile-config-server.adventhealth.io/content/card/ios/wellness_cards_general_onboarding.png",
+        "caption": "We can help set one up",
+        "actions": [
+          {
+            "type": "FindPhysician",
+            "text": "Schedule Visit"
+          }
+        ]
+      }
+    ],
+    "cards": {
+      "announcements": [
+        {
+          "actions": [
+            {
+              "text": "Schedule a Visit",
+              "type": "findUrgentCare"
+            }
+          ],
+          "id": "2018_FLU_SEASON",
+          "image": "https://mobile-config-server.dev.ahss.io/content/card_pic_flu_season.png",
+          "type": "wellness-announcement",
+          "priority": 1050,
+          "description": "Flu season is here. Protecting yourself is easy.",
+          "caption": "Schedule your flu shot at any AdventHealth Urgent Care."
+        }
+      ],
+      "intro": [
+        {
+          "id": "intro",
+          "type": "wellness-intro",
+          "priority": 1000,
+          "description": "We'll provide helpful suggestions for whole health",
+          "actions": [
+            {
+              "text": "Got it",
+              "type": "dismiss"
+            }
+          ]
+        },
+        {
+          "id": "intro",
+          "type": "healthrecords-intro",
+          "priority": 950,
+          "description": "You can access lab results and health history",
+          "actions": [
+            {
+              "text": "Got it",
+              "type": "dismiss"
+            }
+          ]
+        },
+        {
+          "id": "intro",
+          "type": "appointments-intro",
+          "priority": 900,
+          "description": "You’ll be able to manage your upcoming visits",
+          "actions": [
+            {
+              "text": "Got it",
+              "type": "dismiss"
+            }
+          ]
+        }
+      ]
+    },
+    "credentials": {
+      "hockey": {
+        "id": "e7f1a1bacb6d4fd1827264d32f4a909a"
+      }
+    },
+    "services": {
+      "providerSearch": {
+        "root": "https://rga-testing.hellowell.com/provider-search/api/",
+        "cert_ios9": "cE8zJQ0g6DeNjZP0aRaRftID0cDiZyFauSa1ikdN0HA=",
+        "cert": "cE8zJQ0g6DeNjZP0aRaRftID0cDiZyFauSa1ikdN0HA=",
+        "api-version": "v1",
+        "timeout": {
+          "shortMilliseconds": 1000,
+          "regularSeconds": 5,
+          "longSeconds": 15
+        }
+      },
+      "centraCare": {
+        "root": "https://centracare-scheduling-staging.ahss.io/ccrest/api/smartapptstest/",
+        "cert_ios9": "eULogp3hEuKxnMnmnjp6BrXvsZEfrlDstBX/JAzBLGA=",
+        "cert": "eULogp3hEuKxnMnmnjp6BrXvsZEfrlDstBX/JAzBLGA=",
+        "api-version": "",
+        "timeout": {
+          "shortMilliseconds": 1000,
+          "regularSeconds": 5,
+          "longSeconds": 15
+        }
+      },
+      "cardTest": {
+        "root": "https://ahs-test-backend.herokuapp.com/",
+        "cert_ios9": "Lw5IJPi6BT5CQHd2VWFQ8CraWNIF+xaQuB2mbd12weQ=",
+        "cert": "Lw5IJPi6BT5CQHd2VWFQ8CraWNIF+xaQuB2mbd12weQ=",
+        "timeout": {
+          "longSeconds": 15
+        }
+      },
+      "salesForce": {
+        "root": "https://sfproxy.dev.ahss.io/",
+        "cert_ios9": "V4Y/diMRFESqQxOcI5c16synoojHzdUCU/8Bsu2cRyU=",
+        "cert": "V4Y/diMRFESqQxOcI5c16synoojHzdUCU/8Bsu2cRyU=",
+        "token": "$2y$10$AtF0DNuP72BkoV2eHgoNjuhcASg5sdNm/l9QubdKCS2jjRFUAJU12",
+        "reason": "Request An Appointment iOS",
+        "recordTypeId": "01241000000k3BVAAY",
+        "webform": "a0Z4100000Gxp1CEAR",
+        "channel": "a054100000LLpQC",
+        "api-version": "",
+        "timeout": {
+          "shortMilliseconds": 1000,
+          "regularSeconds": 5,
+          "longSeconds": 15
+        }
+      },
+      "consumerOkta":{
+         "secret":"secret",
+         "root":"https://phr-environment-okta.dev.adventhealth.io/api/",
+         "api-version":"v1",
+         "cert":"eULogp3hEuKxnMnmnjp6BrXvsZEfrlDstBX/JAzBLGA=",
+         "cert_ios9":"eULogp3hEuKxnMnmnjp6BrXvsZEfrlDstBX/JAzBLGA=",
+         "timeout":{
+            "shortMilliseconds":1000,
+            "longSeconds":15,
+            "regularSeconds":5
+         },
+         "clientId":"client"
+      },
+      "consumer": {
+        "secret": "secret",
+        "root": "https://api.adventhealth.io/api/",
+        "cert_ios9": "eULogp3hEuKxnMnmnjp6BrXvsZEfrlDstBX/JAzBLGA=",
+        "cert": "eULogp3hEuKxnMnmnjp6BrXvsZEfrlDstBX/JAzBLGA=",
+        "api-version": "v1",
+        "timeout": {
+          "shortMilliseconds": 1000,
+          "regularSeconds": 5,
+          "longSeconds": 15
+        },
+        "clientId": "client"
+      }
+    },
+    "externalUrls": {
+      "externalSSO": "https://testing.hellowell.com/sso/signon",
+      "labAndImaging": "https://scheduling.floridahospital.com/",
+      "helpCenter": "https://www.adventhealth.com/account-help?ahs-webview=1",
+      "termsLegal": "https://www.adventhealth.com/legal?ahs-webview=1",
+      "billPay": "https://www.adventhealth.com/pay-my-bill",
+      "simplee": "https://testing.hellowell.com/sso/signon",
+      "centraCare": "https://billpay.centracare.org",
+      "appstoreRedirect": "itms-apps://itunes.apple.com/us/app/adventhealth-app/id1468538150",
+      "whatsNew": "https://adventistdev.prod.acquia-sites.com/apptest"
+    },
+    "presets": {
+      "search": {
+        "emergencyRoomRadiusInMiles": 50,
+        "urgentCareRadiusInMiles": 50
+      },
+      "maximumMessageLength": 1000,
+      "eCarePracticeHandle": "ecare-sandbox",
+      "eCareEnvironment": "staging",
+      "popularSpecialities": [
+        {
+          "value": "Family Medicine",
+          "label": "Primary Care (PCP)"
+        },
+        {
+          "value": "Pediatric",
+          "label": "Pediatric"
+        },
+        {
+          "value": "OBGYN",
+          "label": "OBGYN"
+        },
+        {
+          "value": "Cardiology",
+          "label": "Cardiology"
+        },
+        {
+          "value": "Orthopedics",
+          "label": "Orthopedics"
+        }
+      ],
+      "minorAllowedRelationships": [ 2, 3, 4, 5, 6, 7, 8, 14, 15, 17, 18 ],
+      "popularInsurances": [
+        {
+          "value": "AARP",
+          "label": "AARP"
+        },
+        {
+          "value": "Assurant Health",
+          "label": "Assurant Health"
+        },
+        {
+          "value": "BCBS-FL",
+          "label": "Blue Cross Blue Shield of Florida"
+        },
+        {
+          "value": "United Healthcare",
+          "label": "United Healthcare"
+        },
+        {
+          "value": "US Dept of Labor-Workers Comp",
+          "label": "US Dept of Labor-Workers Comp"
+        },
+        {
+          "value": "Veterans Affairs-Federal",
+          "label": "Veterans Affairs-Federal"
+        }
+      ],
+      "messageTypes": [
+        {
+          "id": 2,
+          "level2": {
+            "key": "day_of_week",
+            "title": "Select A Day",
+            "values": [
+              {
+                "value": "No Preference",
+                "label": "No Preference",
+                "default": true
+              },
+              {
+                "value": "Monday",
+                "label": "Monday"
+              },
+              {
+                "value": "Tuesday",
+                "label": "Tuesday"
+              },
+              {
+                "value": "Wednesday",
+                "label": "Wednesday"
+              },
+              {
+                "value": "Thursday",
+                "label": "Thursday"
+              },
+              {
+                "value": "Friday",
+                "label": "Friday"
+              },
+              {
+                "value": "Saturday",
+                "label": "Saturday"
+              },
+              {
+                "value": "Sunday",
+                "label": "Sunday"
+              }
+            ]
+          },
+          "level3": {
+            "key": "time_of_day",
+            "title": "Select A Time",
+            "values": [
+              {
+                "value": "No Preference",
+                "label": "No Preference",
+                "default": true
+              },
+              {
+                "value": "Morning",
+                "label": "Morning"
+              },
+              {
+                "value": "Afternoon",
+                "label": "Afternoon"
+              },
+              {
+                "value": "Evening",
+                "label": "Evening"
+              }
+            ]
+          }
+        },
+        {
+          "id": 3,
+          "level2": {
+            "key": "prescription",
+            "title": "Select A Prescription",
+            "source": "prescriptions"
+          }
+        }
+      ]
+    },
+    "environment": "dev",
+    "settings": {
+      "refreshTokenAttempts": 3,
+      "refreshTokenTimeThreshold": 40
+    },
+    "oktaConfig": {
+       "scopes": "openid profile offline_access",
+       "redirectUri": "com.okta.dev-834110:/callback",
+       "clientId": "0oapzgtmnj0cW5ghx0h7",
+       "issuer": "https://adventhealth.oktapreview.com/oauth2/aussbqjo8dPbye4WL0h7",
+       "logoutRedirectUri": "com.okta.dev-834110:/"
+    },
+    "liveAgent": {
+      "buttonId": "57341000000fxZw",
+      "organizationId": "00D8A0000004dXp",
+      "deploymentId": "57241000000fxZD",
+      "pod": "d.la2-c2cs-ph2.salesforceliveagent.com"
+    },
+    "coronavirusAgent": {
+        "buttonId": "5732M0000004gkG",
+        "organizationId": "00DP0000003rdQa",
+        "deploymentId": "5722M0000000SIt",
+        "pod": "d.la1-c1cs-ia2.salesforceliveagent.com"
+    },
+    "amWell": {
+      "iot": {
+        "sdkKey": "eeb39f1d",
+        "sdkURL": "https://iot68.amwellintegration.com"
+      },
+      "staging": {
+        "sdkKey": "9b544e57",
+        "sdkURL": "https://stagingadventhealth.mytelehealth.com"
+      }
+    }
+  },
+  "appstoreId": ""
 }
